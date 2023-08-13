@@ -1,9 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2023-08-13T20:30:06.543Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.6.8" etag="oM6Zl50BOPrhl5L2GMHo" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-13T21:08:15.521Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="HD43LzvVt1_LaDVTFVpt" version="21.6.8" type="github">
   <diagram name="第 1 页" id="4gjGaS2XABQ47O1_cJSO">
-    <mxGraphModel>
+    <mxGraphModel dx="979" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="OmlC_nHcWWEJA4VTdXqb-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OmlC_nHcWWEJA4VTdXqb-1" target="OmlC_nHcWWEJA4VTdXqb-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OmlC_nHcWWEJA4VTdXqb-5" value="&amp;nbsp; &amp;nbsp; extract questions&lt;b&gt; tagged with &lt;/b&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;TF, Keras, PyTorch, Theano and Caffe" style="edgeLabel;html=1;align=center;verticalAlign=top;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="OmlC_nHcWWEJA4VTdXqb-4">
+          <mxGeometry x="-0.1473" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OmlC_nHcWWEJA4VTdXqb-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OmlC_nHcWWEJA4VTdXqb-1" target="OmlC_nHcWWEJA4VTdXqb-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="165" y="330" />
+              <mxPoint x="430" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OmlC_nHcWWEJA4VTdXqb-1" value="Set A&lt;br&gt;all questinos from 2008 to 2019&lt;br&gt;18,597,996&lt;br&gt;&amp;nbsp; &amp;nbsp;" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="250" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="OmlC_nHcWWEJA4VTdXqb-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OmlC_nHcWWEJA4VTdXqb-3" target="OmlC_nHcWWEJA4VTdXqb-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OmlC_nHcWWEJA4VTdXqb-8" value="1. extract questions that contain the words &lt;br style=&quot;font-size: 14px;&quot;&gt;&#39;Cloud&#39;, &#39;Server&#39;, and &#39;Serving&#39; in &lt;b style=&quot;font-size: 14px;&quot;&gt;the title and body&lt;/b&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;2. delete questions that don&#39;t contain the word &#39;deploy&#39;&lt;br style=&quot;font-size: 14px;&quot;&gt;279" style="edgeLabel;html=1;align=left;verticalAlign=top;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="OmlC_nHcWWEJA4VTdXqb-7">
+          <mxGeometry x="0.0409" relative="1" as="geometry">
+            <mxPoint x="-106" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OmlC_nHcWWEJA4VTdXqb-3" value="Set B&lt;br&gt;questions related to DL&lt;br&gt;70,669&lt;br&gt;&amp;nbsp; &amp;nbsp;" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="52.5" width="180" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="OmlC_nHcWWEJA4VTdXqb-6" value="Set C&lt;br&gt;questions related to deploying DL-based software in server/cloud platforms&lt;br&gt;1,325&amp;nbsp;" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="430" width="180" height="140" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
